@@ -1,0 +1,26 @@
+
+git --version
+
+git config --global user.name " "
+
+git config --global user.email " "
+
+git config --list
+
+git help config
+git config --help
+
+git init
+[rm -rf .git]
+
+git add <file>
+
+git status
+
+git commit
+
+git push
+
+git pull
+
+git clone
