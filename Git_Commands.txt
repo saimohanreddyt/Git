@@ -1,4 +1,46 @@
 
+Version Control System
+------- ------- ------
+> Version control is the management of changes to documents, computer programs, large web sites, and other collections of information. These changes are usually termed as "versions".
+> Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. 
+
+Storing Versions
+------- --------
+> Snapshots of all versions are properly documented and stored.
+> Versions are also named accurently
+
+Backup
+------
+In any case if your central server crashes, a backup is always avaliable in your local servers.
+
+Analyze:
+--------
+	> VCS provides you with proper description
+	> What exactly was changes
+	> When it was changed
+	And hence, you can analyze how your projects evolved between versions.
+
+
+Git & GitHub
+------------
+
+Git
+---
+Git is a version control system that lets you manage and keep track of your source code history. 
+
+GitHub
+------
+GitHub is a cloud-based hosting service that lets you manage Git repositories. 
+
+If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+
+
+
+
+
+
+
+
 
 …or create a new repository on the command line
 
@@ -43,3 +85,5 @@ git push
 git pull
 
 git clone
+
+git log
