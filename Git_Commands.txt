@@ -26,7 +26,24 @@ Git & GitHub
 
 Git
 ---
+Git is a Distributed Version Control tool that supports distributed non-linear workflows by providing data assurance for developing quality software.
 Git is a version control system that lets you manage and keep track of your source code history. 
+
+Features of Git: Distributed, Compatible, Non-linear, Branching, Lightweight, Speed, Open Source, Reliable, Secure, Economical.  
+
+Repository
+----------
+A directory or storage space where you projects can live. It can be local to a folder on your computer, or it can be a storage space on GitHub or another online host.
+You can keep code files, text files, image files, you name it, inside a repository.
+
+There are two types of repositories:
+1. Central Repository : Tpically located on remote server
+			Exclusively consists of ".git" repository folder
+			Meant for team to share and exchange data
+
+2. Local Repository  :	Typically located on local machine
+			Resides as a .git folder inside your project's root
+			Only admin of the machine can work with this repo
 
 GitHub
 ------
@@ -35,6 +52,22 @@ GitHub is a cloud-based hosting service that lets you manage Git repositories.
 If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
 
 
+Git Operations & Commands
+--- ---------- - --------
+
+Creating repositories : git init
+
+Making changes	      :	git status
+			git add
+			git commit
+
+Syncing repositories  : git add origin
+			git push
+			git pull
+
+Parallel development  : git branch
+			git merge
+			git rebase
 
 
 
