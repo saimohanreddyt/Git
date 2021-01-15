@@ -153,11 +153,24 @@ git branch firstbranch : Creating a different branch
 
 git checkout firstbranch : Siwtched to branch "given"
 
- 
+git push origin "new_branchname"
 
+//////////////////
 
+Merging : It is a way to combine the worj of different branches together. 
+=======	  Allows to branch off, develop a new feature & combine it back in. 
+=======
 
+git merge "new_branch_name"  -from master branch we call the newlly created branch
+                             
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Rebasing : This is also a way of combining the work between different branches.
+=========  It can be used to make a linear sequence of  commits.
+=========
+
+git rebase "new_branchname"  -it works as a merge
 
 
 git-add[1]
